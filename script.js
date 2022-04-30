@@ -3,6 +3,8 @@ function compute()
     var par = document.getElementById("principal").value;
     if(par<=0){
         alert("Enter a Positive number")
+        document.getElementById("principal").focus();
+
     }
 
     else{
